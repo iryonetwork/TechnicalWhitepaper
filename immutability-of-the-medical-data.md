@@ -6,7 +6,11 @@ The second line is offered by redundant storage nodes and saved medical data che
 
 The final line of defense is to find out which node was changed. All storage nodes would provide cryptographic proofs to patients, by writing hashes in the EOS blockchain. Patients would be able to verify independently that the provided proof is really there \(with blockchain receipt\). That way if the checksum verification fails, compromised storage node can be easily identified and replaced.
 
-To reduce the number of hashes, they will be aggregated into a Merkle tree. Clients get blockchain receipt[^1] they can use to independently verify the blockchain proof.
+To reduce the number of hashes, they will be aggregated into a Merkle tree. Clients get blockchain receipt[^1][^2] they can use to independently verify the blockchain proof.
 
-[^1]: dooososewwewe
+
+
+[^1]: [https://chainpoint.org/](https://chainpoint.org/)
+
+[^2]: [https://opentimestamps.org/](https://opentimestamps.org/)
 
