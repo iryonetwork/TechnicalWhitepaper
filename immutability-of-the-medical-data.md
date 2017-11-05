@@ -8,5 +8,5 @@ The final line of defense is to find out which node was changed. All storage nod
 
 To reduce the number of hashes, they will be aggregated into a Merkle tree. Clients get blockchain receipt[^1] they can use to independently verify the blockchain proof.
 
-[^1]: whaaaat.
+[^1]: dooososewwewe
 
