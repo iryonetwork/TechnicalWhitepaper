@@ -10,11 +10,7 @@ End user can issue signed permission messages to the blockchain. This includes:
 
 • rotating your re-encryption key.
 
-
-
 Use of the smart contracts for permission controls is optional \(there is no double spending problem\). Iryo would use it, because that way EOS node can compute the state the minute it received the ordered message, instead of waiting for the query to compute it \(the state gets pre-computed\).
-
-
 
 **Permission controls** benefit from being in the blockchain in the following ways:
 
@@ -24,12 +20,9 @@ Use of the smart contracts for permission controls is optional \(there is no dou
 
 • Once your message gets included in the blockchain, one part of the network can not withhold it from another. That way, you can always be sure you have all the revocations, assuming you are running Iryo full node \(which is still just a tiny subset of the whole EOS network\).
 
-
-
 All the storage endpoints \(in the cloud and in the clinics\) would run their independent Iryo ledger full node. A smart contract would be used to prepare the local state. Direct query on the full node would return either true or false for each access request the Iryo \(storage\) network needs to process.
 
 ![](https://lh3.googleusercontent.com/xN2SM-g16Vi2ZWQuPcWauNcWFONQCSgWEBIQPdfOEUdrKPul4H2OzblZ5BiKoKxmb1RIyLGgPyYF_VgrTphxk7g65cv-nSnzwwzp2n-NhX_4MukvNbQltFdjS29hgnG3Pyc2tkbe)
 
-  
-
+simplified overview
 
