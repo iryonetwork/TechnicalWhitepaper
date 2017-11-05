@@ -1,13 +1,13 @@
 ## **ZeroPass App**
 
-ZeroPass is a passwordless keychain & private key recovery manager. It can store keys in a zero-knowledge manner and provides trustless recovery \(that works even if ZeroPass servers are down\). The App development iscurrently in the private beta stage.**    
+ZeroPass is a passwordless keychain & private key recovery manager. It can store keys in a zero-knowledge manner and provides trustless recovery \(that works even if ZeroPass servers are down\). The App development iscurrently in the private beta stage.**      
 **Read more in depth on it on [zeropass.io](https://www.zeropass.io/) or fairly [technical whitepaper](https://www.gitbook.com/book/zeropass/whitepaper/details);
 
 To use a key from ZeroPass users don’t need to remember anything; instead they need to sign every request for a requested key with 2 devices; devices that have been previously paired with ZeroPass app or optionally “yubikey style” devices \(FIDO compliant\).
 
-Later, ZeroPass would add multisig transaction signing \(threshold ecdsa\), which will be used to provide extremely secure signing using private key -it stays secure even if one of your devices is infected by malware.This capability will be tightly integrated into IryoEHR app - the token section. ![](https://lh6.googleusercontent.com/UXdlBaZePqH7p4TTqJ4v4JDgj4QONUhpoXv8f9_OWLeQDkcKLYZdw1HreLnXWwXIE0TxKEiAtCZJqDqOLW-RDxHcmZzxNLqskNBcFVdTkQGLu10G9rysNY2Fh0LCCV0U4z6NPxtw)
+Later, ZeroPass would add multisig transaction signing \(threshold ecdsa\), which will be used to provide extremely secure signing using private key -**it stays secure even if one of your devices is infected by malware**.This capability will be tightly integrated into IryoEHR app - the token section. ![](https://lh6.googleusercontent.com/UXdlBaZePqH7p4TTqJ4v4JDgj4QONUhpoXv8f9_OWLeQDkcKLYZdw1HreLnXWwXIE0TxKEiAtCZJqDqOLW-RDxHcmZzxNLqskNBcFVdTkQGLu10G9rysNY2Fh0LCCV0U4z6NPxtw)
 
-** **If you lose your devices \(ZeroPass “factors”\) and lock yourself out the two out of three trusted contacts can help you recover \(within the app, or offline in case the service is unavailable\).**        
+** **If you lose your devices \(ZeroPass “factors”\) and lock yourself out the two out of three trusted contacts can help you recover \(within the app, or offline in case the service is unavailable\).**          
 **
 
 ## **ZeroPass 4Teams app**
@@ -39,7 +39,7 @@ Instead of 1000+ stolen Electronic health records only up to max 10 records can 
 Potential abuse of this edge case functionality
 
 • If Alice \(patient\) abuses the stake; the clinic can invoice her and later file a lawsuit if the invoice was not paid for.  
-• If Alice hospital was issuing fraudulent requests she gets automatically compensated and can sue based on that public blockchain proof of the breach even if the clinic refuses to notify her of that catastrophic breach to multiple clinic personnel devices.**      
+• If Alice hospital was issuing fraudulent requests she gets automatically compensated and can sue based on that public blockchain proof of the breach even if the clinic refuses to notify her of that catastrophic breach to multiple clinic personnel devices.**        
 **
 
 ### **Edge case: Disaster ‘Health Records’ access mode for clinic**
