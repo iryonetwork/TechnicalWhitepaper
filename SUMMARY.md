@@ -10,6 +10,7 @@
 * [Why EOS](why-eos.md)
 * [Token utility](token-utility.md)
 * [Cryptographic enforcement of permissions](cryptographic-enforcement-of-permissions.md)
+* [Private Key Management](private-key-management.md)
 * [ZeroPass App](zeropass-app.md)
 * [Conclusion](conclusion.md)
 
