@@ -1,26 +1,31 @@
 # **Blockchain permission controls**
 
-End user can issue signed permission messages to the blockchain. This includes:
+End-users can issue signed permission messages to the blockchain. This includes:
 
-• sharing all electronic health records with your personal doctor \(with or without time limits\), •revocations of access to patients EHR,
+* sharing all electronic health records with their personal doctor \(with or without time limits\),
 
-• sharing of limited relevant parts of health records with a specialist \(with a time limit\). Inpatient medical records will also be partitioned with a separate set of access rules.
+* the revocation of access to their EHR
 
-• issuing IOT device permission to write, but not to read the data,
+* the sharing of limited relevant parts of health records with a specialist \(with a time limit\). Inpatient medical records will also be partitioned with a separate set of access rules.
 
-• rotating your re-encryption key.
+* issuing IoT device permissions to write but not to read data
 
-Use of the smart contracts for permission controls is optional \(there is no double spending problem\). Iryo would use it, because that way EOS node can compute the state the minute it received the ordered message, instead of waiting for the query to compute it \(the state gets pre-computed\).
+* rotating the re-encryption key
 
-**Permission controls** benefit from being in the blockchain in the following ways:
+The use of the smart contracts for permission controls is optional \(there is no double spending problem\). Iryo would use it, because that way the EOS node can compute the state at the moment it received the ordered message, instead of waiting for the query to compute it i.e. where the state gets pre-computed.
 
-• Trustless timestamping. All Iryo full nodes - including consensus “block-producing” nodes - would validate all the messages. There can’t be any doubt what and when blockchain permission messages were issued.
+Permission controls benefit from being in the blockchain in the following ways:
 
-• Immutable log of all messages. It’s not possible to deny that the valid access request was issued. That will reduce the possibility of litigation with dishonest parties claiming they never issued the access permissions.
+* **Trustless timestamping**. All Iryo full nodes, including consensus “block-producing” nodes, would validate all messages. Therefore there will not be any doubt with regards to what and when blockchain permission messages were issued.
 
-• Once your message gets included in the blockchain, one part of the network can not withhold it from another. That way, you can always be sure you have all the revocations, assuming you are running Iryo full node \(which is still just a tiny subset of the whole EOS network\).
+* **Immutable log of all messages**. It will not be possible to deny that a valid access request was issued. This will reduce the possibility of litigation where dishonest parties claim that access permissions were never issued.
 
-All the storage endpoints \(in the cloud and in the clinics\) would run their independent Iryo ledger full node. A smart contract would be used to prepare the local state. Direct query on the full node would return either true or false for each access request the Iryo \(storage\) network needs to process.
+* Once your message gets included in the blockchain, **one part of the network cannot withhold it from another**. That way, users can always be sure that they have all the revocations, that is, assuming they are running the Iryo full node \(which is still just a tiny subset of the whole EOS network\).
+
+All storage endpoints \(in the cloud and in the clinics\) would run their independent Iryo ledger full node. A smart contract would be used to prepare the local state. A direct query on the full node would return either a true or false response for each access request that the Iryo \(storage\) network would need to process.
+
+  
+
 
 ![](https://lh3.googleusercontent.com/xN2SM-g16Vi2ZWQuPcWauNcWFONQCSgWEBIQPdfOEUdrKPul4H2OzblZ5BiKoKxmb1RIyLGgPyYF_VgrTphxk7g65cv-nSnzwwzp2n-NhX_4MukvNbQltFdjS29hgnG3Pyc2tkbe)
 
