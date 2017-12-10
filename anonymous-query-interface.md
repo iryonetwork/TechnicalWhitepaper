@@ -57,7 +57,7 @@ Obtain 100[^2] individuals who respond to the query, and collect their health da
 
 1. Use machine learning \(AI\) to identify trends and test hypotheses.
 
-2. Verify learned formulas on 10 000\[^2\] more people with anonymous query, without ever exposing their information.
+2. Verify learned formulas on 10 000[^2] more people with anonymous query, without ever exposing their information.
 
 Since the Iryo Network scales better to more patients internationally \(due to its inherent privacy\), researchers would be able to approach more people and therefore enhance the robustness of their research findings.
 
