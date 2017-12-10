@@ -1,12 +1,16 @@
+# Iryo Network
+
+# Technical Whitepaper
+
+**Iryo Network **is a zero-knowledge health record storage platform, with an anonymous query interface. It uses blockchain permission controls for patient record access and tokens to incentivize end users consent enabling artificial intelligence \(AI\) research.
+
 # Abstract
 
-Patients health records are classified as one of the most sensitive personal information. When data leaks, it can be used to target individuals reputation,his employment options, insurance premium, or is used as a marketing tool, taking advantage of the ill and their desperation.
+Patient health records are considered one of the most sensitive kinds personal information. Should personal health data leak, it could be used to defame an individual’s reputation, jeopardize employment options, influence insurance premiums, or used as a marketing tool - all potentially exploiting an individual’s health status.
 
-On the other hand, medical data has to be readily available to different institutions and countries in cases of needed medical care; to prevent bad outcomes in emergency care due to lack of medical information about a patient.. Additionally, many research artificial intelligence platforms are looking at ways to access your data to improve our knowledge, provide early detection of diseases and invent new treatments.
+However, there is little doubt that having medical data readily available to appropriate institutions globally can have major medical benefits. Access to this data can avoid unnecessary medical complications that arise due to incomplete patient medical history. Currently, many research artificial intelligence platforms are exploring ways to access patient data to improve the understanding of conditions, in order to formulate algorithms for early detection of diseases and develop new treatments.
 
-These two approaches are at odds with each other- causing medical data to stay in the ungrateful middle, where it can only serve inside tightly controlled siloses. It can’t empower its owner and it adds friction to \(ai\) research.
+Due to these perspectives being perceived as mutually exclusive, it is clear why user’s have erred on the side on caution resulting in medical data only being served within tightly controlled silos. By effectively limiting potential of health data, current health records don’t empower their owners and frustrate artificial intelligence \(AI\) research.
 
-Iryo is the first health records project that merges both worlds.
-
-It consist of an open access to the platform \(api\), open-source client code, and by using open standards ensure interoperability, transparency and security.
+Iryo is the first health record project which challenges this perception by tapping into the benefits of health data while ensuring data privacy. This solution consists of open access to the platform \(API\), open-source client code and, by using open standards ensure interoperability, transparency and security.
 
