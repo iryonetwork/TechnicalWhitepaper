@@ -2,10 +2,6 @@
 
 ### **enables AI learning over distributed & encrypted data**
 
-
-
-
-
 Since health data doesn’t decrypt itself without patient consent, a new approach needs to be devised to allow for machine learning and AI capabilities. There are many complicated ways, from both a development and resource standpoint, to query encrypted data \(e.g. multi-party computation and proxy re-encryption\).
 
 Fortunately, there is an actual ‘trusted device’ in the Iryo Network end-user device. This could be a phone, tablet or personal computer. Since these devices need to be able to read all health data in plain text, they would also be able to execute the queries across the same data.
@@ -24,15 +20,9 @@ In actual implementation, the patient's device will receive a silent notificatio
 
 Iryo envisions three types of opt-out, anonymous requests that present various potential implications for privacy which would require distinct user consent. These types are identified as a pseudo anonymous query, an anonymous query used for AI validation across a dataset and an anonymous query to deliver patient value.
 
-
-
 ## **Copy then analyse**
 
 ### **PseudoAnonymous query - used for AI training dataset**
-
-
-
-
 
 This is a request for medical data in plain form, without the directly identifiable personal information \(pseudonymous\). This bears high costs \(in the region of $100 worth of IRYO tokens\) since, even without personally identifiable information, this data can still be used to match against other databases and individuals could be identified if that data leaks from the researcher[^1].
 
@@ -40,10 +30,7 @@ This is a request for medical data in plain form, without the directly identifia
 
 The number of these requests should be kept low \(up to 100 patients\) to train and test machine learning algorithms freely. After results are determined and the algorithm needs to be validated \(or invalidated\) over much bigger population sample size, they proceed to the next type of query.
 
-  
-
-
-**    
+**      
 **
 
 ## **Analyze in place**
@@ -52,8 +39,7 @@ The number of these requests should be kept low \(up to 100 patients\) to train 
 
 This is an anonymous query across medical data that bears a very low cost \(estimated at $0.1 worth of IRYO tokens\). This is because this request takes data, applies a formula to it, and then only sends back the result in numerical or binary form \(true/false\). There is no leakage of personal information and it cannot be compared to other databases.
 
-These requests can be sent to all users in the Iryo Network and can be used to train and test machine learning algorithms, until a verified researcher finds and validates the missing link.  
-
+These requests can be sent to all users in the Iryo Network and can be used to train and test machine learning algorithms, until a verified researcher finds and validates the missing link.
 
 ![](https://lh3.googleusercontent.com/K-45za5XnTVIweD6b0Ay4KRXrxxfsi3zBmelENeuLNJaHuId1hbJ2B9g7OZFWOHBDies1PLDatjvjVLSYwcblLMDy_FXFHIoMGkPXo-0gLT_UC7ZiRbcmuARsZBJmBd9kIpOifh6)
 
@@ -71,12 +57,9 @@ Obtain 100[^2] individuals who respond to the query, and collect their health da
 
 1. Use machine learning \(AI\) to identify trends and test hypotheses.
 
-2. Verify learned formulas on 10 000 more people with anonymous query, without ever exposing their information.
+2. Verify learned formulas on 10 000\[^2\] more people with anonymous query, without ever exposing their information.
 
 Since the Iryo Network scales better to more patients internationally \(due to its inherent privacy\), researchers would be able to approach more people and therefore enhance the robustness of their research findings.
-
-  
-
 
 ## **Benefits for Patients - find actionable early indicators of health problems/diseases **
 
@@ -85,9 +68,6 @@ Patients will be alerted to their identified modifiable risk factors of disease 
 With Iryo’s innovative design, patients now have the option to not share their health information but still receive research results – something that has not been achieved until now.
 
 If the patient \(older or non-technical\) does not possess a smartphone or the IryoEHR app, they could give permission to their doctor to allow research to be conducted on their data after an approval processes at the clinic.
-
-  
-
 
 [^1]: [Privacy for research participants](https://en.wikipedia.org/wiki/Privacy_for_research_participants)
 
