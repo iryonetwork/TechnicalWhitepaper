@@ -8,6 +8,8 @@ Since health data doesn’t decrypt itself without patient consent, a new approa
 
 Fortunately, there is an actual ‘trusted device’ in the Iryo Network end-user device. This could be a phone, tablet or personal computer. Since these devices need to be able to read all health data in plain text, they would also be able to execute the queries across the same data.
 
+![](assets/Untitled-1.png)
+
 A process to deliver queries to end-user without breaking its anonymity or given consent needs to be defined. Iryo has a solution to this process gap.
 
 1. First Iryo would verify research institutions to make sure they are legitimate and not attempting to commercialize confidential information by re-selling the collected data.
@@ -19,6 +21,8 @@ A process to deliver queries to end-user without breaking its anonymity or given
 4. The patient's own device verifies that the patient meets the query criteria. If the verification is successful, the query details with the name of the research institution and the amount of tokens to be received by a patient is shown on the device pending approval.
 
 In actual implementation, the patient's device will receive a silent notification which will wake up a background process to query the requested criteria i.e. female, 30-35 years old with diabetes. If a patient does not fall within the defined parameters, the silent notification disappears. It will do so without providing a report to the requester thereby keeping patient-users anonymous. If the patient meets the criteria, a notification would be shown on the patient’s device. The notification would include the name of the research institution, the justification for the query requested i.e. the aim\(s\) of the research, and the number of tokens available as an incentive to allow query results to be sent back.
+
+![](assets/1_750.png)
 
 Iryo envisions three types of opt-out, anonymous requests that present various potential implications for privacy which would require distinct user consent. These types are identified as a pseudo anonymous query, an anonymous query used for AI validation across a dataset and an anonymous query to deliver patient value.
 
@@ -32,7 +36,7 @@ This is a request for medical data in plain form, without the directly identifia
 
 The number of these requests should be kept low \(up to 100 patients\) to train and test machine learning algorithms freely. After results are determined and the algorithm needs to be validated \(or invalidated\) over much bigger population sample size, they proceed to the next type of query.
 
-**          
+**              
 **
 
 ## **Analyze in place**
