@@ -1,6 +1,5 @@
 # **Zero-Knowledge storage**
 
-  
 The Iryo Network is a global repository of openEHR data. Since few people are prepared to provide their medical data to a “GoogleEHR”-type of capture and shameless reaping of all the medical data for commercial purposes, Iryo has decided to give up it’s access to plain data. Iryo perceives the medical data it holds as a [“toxic asset”](https://www.gitbook.com/book/iryo/whitepaper/edit#), because we believe that holding too much data in one place presents too large a liability risk.
 
 The solution to managing this risk is zero-knowledge data storage which is resistant to all attacks, including state-actors or an “inside jobs’’. This works by way of users encrypting their data on their mobile device\(s\) with a public key.
@@ -23,10 +22,11 @@ Copies of encrypted health records are stored on the three geographically and ma
 
 Whenever data on end-user devices \(point three above\) is updated, the other devices would connect to the API of both redundant storage nodes \(points one and two above\) and sync/update the encrypted data to match the local copy. Both storage nodes would provide a “blockchain proof” \(cryptographic receipt\) of the location of the data saved with the same hash that clients requested. Clients would validate these by asking the independent node if the data was actually put in a chain.
 
-  
 
 
-![](https://lh4.googleusercontent.com/eQQqCqs6b7em5Rq80l-y7Esxivm3lV2In6jZL9idgMPJcBj3wbgw1YLG-LfgkQQZD9zDSMuIc-cnZeXc5i3aPV6zIG8ViT3SdEzD8SlPfK94ty0GH1a02uDjmVPVt6yHcOPawLIn)
+![](assets/1.png)
+
+
 
 If the device contains more current data \(which could happen when a doctor syncs health record with a more recent version\), then it would only connect to one endpoint API. This would be one that is reachable - preferably the local one \(point two above\) in the same clinic. In this manner, read access doesn’t consume hospital internet connection.
 
@@ -34,24 +34,17 @@ The diversity of network topologies and endpoint reachability would allow clinic
 
 While there could be a complete loss of data at each of these points independently, when working in unison they provide reliable and robust system redundancy.
 
-
-
 ### **Risks in distributed data storage systems like Filecoin/Sia/Storj/Maidsafe**
 
 The problem with distributed systems like Filecoin/Sia/Storj/MaidSafe is that they can’t protect users from attackers storing and serving all data from the single server. Attackers can pretend to be geographically distributed and collect money for all 3-5 copies \(Sybil attack\). Trusting devices, hospitals, and the Iryo Network to keep at least one \(encrypted\) copy alive offers far greater guarantees against health data loss.
-
-
 
 ### **Who pays for the storage in Iryo Network?**
 
 All text-based data will be funded by clinics who would stake IRYO tokens. and the 1% yearly inflation would be partly used to cover the cost of storage on the Iryo platform.
 
-In some cases, in order to secure the storage of additional gigabytes of raw data being generated and stored, clinics would have to stake additional tokens. If patient-users do not want to be dependent on the staking decisions of their clinics, they would have the option to stake coins themselves. This would unlock the storage for their use, and limit potential abusers. 
+In some cases, in order to secure the storage of additional gigabytes of raw data being generated and stored, clinics would have to stake additional tokens. If patient-users do not want to be dependent on the staking decisions of their clinics, they would have the option to stake coins themselves. This would unlock the storage for their use, and limit potential abusers.
 
 The precise staking requirement would be updated based on the real data gathered when the Iryo Network goes live. We foresee that, at scale, this would be significantly cheaper than any current decentralized storage, especially in comparison to proprietary systems that cannot be easily upgraded.
 
 The Iryo Network has distanced itself from the current fixation on “Big Data” and has chosen to rather focus on patient privacy. This alternative focus would allow the Iryo Network to scale globally, enabling it to attract more users. Because users, clinics and governments are assured data security and privacy,storing data on the Iryo platform means that the number of users willing to share their data with researchers could increase the rate of current EHR participation significantly. Open-source end-user apps would ensure that there are no secret back-doors circumventing the protection.
-
-  
-
 
