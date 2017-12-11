@@ -4,8 +4,6 @@
 
 Since health data doesn’t decrypt itself without patient consent, a new approach needs to be devised to allow for machine learning and AI capabilities. There are many complicated ways, from both a development and resource standpoint, to query encrypted data \(e.g. multi-party computation and proxy re-encryption\).
 
-![](assets/1.png)
-
 Fortunately, there is an actual ‘trusted device’ in the Iryo Network end-user device. This could be a phone, tablet or personal computer. Since these devices need to be able to read all health data in plain text, they would also be able to execute the queries across the same data.
 
 ![](assets/Untitled-1.png)
@@ -32,11 +30,11 @@ Iryo envisions three types of opt-out, anonymous requests that present various p
 
 This is a request for medical data in plain form, without the directly identifiable personal information \(pseudonymous\). This bears high costs \(in the region of $100 worth of IRYO tokens\) since, even without personally identifiable information, this data can still be used to match against other databases and individuals could be identified if that data leaks from the researcher[^1].
 
-![](https://lh6.googleusercontent.com/gUAPih_FPss9NEwvSdgIVv2UaLlhHwXi32-JpR0t8rTlUq1uGiJP3SQ0QiyBcmUW8z26oJ1dIc7-S4W09VkXR9Yc3zBgjdDLEdQr8FItNJSXTbqKawW2WVoIu_rEIKs1gLIfjUvNo55GsIfZiw)
+![](assets/2.png)
 
 The number of these requests should be kept low \(up to 100 patients\) to train and test machine learning algorithms freely. After results are determined and the algorithm needs to be validated \(or invalidated\) over much bigger population sample size, they proceed to the next type of query.
 
-**              
+**                  
 **
 
 ## **Analyze in place**
@@ -47,13 +45,21 @@ This is an anonymous query across medical data that bears a very low cost \(esti
 
 These requests can be sent to all users in the Iryo Network and can be used to train and test machine learning algorithms, until a verified researcher finds and validates the missing link.
 
-![](https://lh3.googleusercontent.com/K-45za5XnTVIweD6b0Ay4KRXrxxfsi3zBmelENeuLNJaHuId1hbJ2B9g7OZFWOHBDies1PLDatjvjVLSYwcblLMDy_FXFHIoMGkPXo-0gLT_UC7ZiRbcmuARsZBJmBd9kIpOifh6)
+
+
+![](assets/3.png)
+
+
 
 ### **Anonymous query- used to provide patient value that saves lives**
 
 This is an anonymous query across medical data that does not return binary responses, but rather shows actionable results. Its philosophy is that researchers should/could share the actionable algorithms that they have validated to improve decision making, for example. Of course, to avoid health risks, algorithms need to be validated by a regulatory authority like the Food and Drug Administration \(FDA\) or European Medicines Agency \(EMA\). This must be done before the insights derived from this platform can be considered as accepted medical advice \(i.e. clinically verified\) and is offered to Iryo patients.
 
-![](https://lh3.googleusercontent.com/topFTnG-CWOnv6FT_XZ-S6L1GudYSpDZFS9QHDEFdQWztoHujmip-PCyApGTnj0XVvPhwlcKJAsDcixF8Hvj1BhS3BXgkUzOAs-m-RL09foR4JlSbWtYYs8qdxOQeZT1A8Pz08HR)
+
+
+![](assets/4.png)
+
+
 
 ## **Benefits for researchers**
 

@@ -24,10 +24,11 @@ Permission controls benefit from being in the blockchain in the following ways:
 
 All storage endpoints \(in the cloud and in the clinics\) would run their independent Iryo ledger full node. A smart contract would be used to prepare the local state. A direct query on the full node would return either a true or false response for each access request that the Iryo \(storage\) network would need to process.
 
-  
 
 
-![](https://lh3.googleusercontent.com/xN2SM-g16Vi2ZWQuPcWauNcWFONQCSgWEBIQPdfOEUdrKPul4H2OzblZ5BiKoKxmb1RIyLGgPyYF_VgrTphxk7g65cv-nSnzwwzp2n-NhX_4MukvNbQltFdjS29hgnG3Pyc2tkbe)
+![](assets/5.png)
+
+
 
 simplified overview
 
