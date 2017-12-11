@@ -1,27 +1,22 @@
 # Token utility
 
-Iryo would use EOS chain to intertwine it’s tokens in a couple of ways:
+Iryo would use EOS chain to intertwine its tokens in a number of ways:
 
-**• All institutions would have to provide a stake of 10.000$  worth of IRYO tokens \(adjustable\)  for their accounts. **  
-This would serve as a spam protection - your app won't talk with 1000 fake institutions without tokens, trying to spam you\). It would also act as a transparent metric on the chain - more accounts with enough tokens should mean more institution are using the system. Institutions include hospitals, clinics, research institutes,..
+1. **All institutions would have to provide a stake of $10 000 worth of IRYO tokens for their accounts **\(this value is adjustable\). This would serve as spam protection - the app won't ‘talk’ to 1 000 fake institutions that do not have IRYO tokens who would most likely be attempting to spam users. It would also act as a transparent metric on the chain. More accounts with enough tokens should mean more institutions are using the system. Institutions would include institutions like hospitals, clinics and research institutes.
 
-**•The clinic staking requirement would be used to cover the cost of storing EHR data for their patients.**  
-If the data per patient would exceed the threshold, clinics would have to stake more tokens to cover the patient medical data cost. Users would be able to cover their storage costs by staking coins themselves; that way they can become independent in storing as much data as they want to \(as long as enough coins are staked\). If they exceed the limit, or the staking requirements suddenly change, they would not lose the data, but the access would get more and more limited over time until the stake is supplied.
+2. **The clinic staking requirement would be used to cover the cost of storing EHR data for their patients**.Should the data per patient exceed the threshold, clinics would have to stake more tokens to cover cost of patient medical data. Patients would be able to cover their storage costs by staking coins themselves; that way they can become independent in storing as much data as they want to \(as long as a sufficient number of coins are staked\). If they exceed the limit, or the staking requirements suddenly change, they would not lose the data but, over time, their access would be increasingly limited until the stake is supplied.  
+   Actual hardware costs would be covered from 1% yearly inflation. Therefore, more data stored would mean more coins staked, which, in turn, provide price pressure to make that 1% yearly inflation worth enough to cover all the storage cost \(and then some\).
 
-Actual hardware costs would be covered from 1% yearly inflation: more data stored would mean more coins staked, which would, in turn, provide price pressure to make that 1% yearly inflation worth enough to cover all the storage cost \(and then some\).
+3. **With health record query tokens researchers would be able to incentivize end users to allow anonymized queries**. Health data never leaves the patient’s device \(phone\), or the device of the doctor whom the patient has assigned access privileges to. Researchers would have to buy the tokens from the market and distribute them to the users that allowed the queries on their health data to be executed. The amounts can be very small, and sent to thousands of people at the same time. High fees could kill this model.
 
-**• With the health record query tokens researchers would be able to incentivize end users to allow anonymized queries. **  
-Health data never leaves the patient’s device \(phone\), or the device of the doctor patient assigned access privileges to. Researchers would have to buy the tokens from the market and distribute them to the users that allowed the queries on their health data to be executed. The amounts can be very small, and send to thousands of people at the same time: high fees could kill this model.
+4. **Cases of medical emergency**.When a patient can’t give consent for access to his health data, the hospital can lock $1 000-worth of tokens \(adjustable\) in the smart contract which gives the patient permission to withdraw the tokens in one-month’s time if the access was not illegitimate. If it was a true emergency, the patient \(or their doctor with pre-approved access to the patient’s medical records\) would confirm access the next day and the smart contract would return the funds to the hospital. If no action is taken within one month, the funds are refunded to the institution that staked them.
 
-**• Use in case of medical emergency**.  
-In an event where a patient can’t give consent for access to his health data the hospital can lock 1000$ worth of tokens \(adjustable\) in the smart contract which gives the patient permission to withdraw the tokens in one month time \(if the access to its health record was not legit\). If the emergency was real the patient \(or his doctor with pre-approved access to patient’s medical records\) would confirm it the next day and the smart contract would return the funds to the hospital. If no action is taken within one month the funds are refunded to the institution that staked them.
+5. **Services in the clinics who have adopted Iryo could be paid with IRYO tokens instead of credit cards**.Volatility, usability challenges with the security of tokens and the limited ability of the end user to purchase tokens on short notice would probably results in this option being used infrequently and/or when patients is traveling abroad.
 
-**• Services in the clinics that adopted Iryo could be paid with Iryo tokens instead of  credit cards.**  
-Volatility, usability challenges with the security of tokens and end user limited ability to purchase them on the short notice would probably make this option used only occasionally or when traveling abroad.
+The aforementioned 1% yearly inflation would cover the storage costs and offer the development subsidy to ensure continuous Iryo Network development and provide sustainable future for IRYO token holders, even when the initial funds run out. While the platform is not released for public use, the inflation tokens would be burned.
 
+The 1% inflation recipient would be a multisignature account controlled by Iryo. Iryo would issue reports on how this money was spent. Should the token holders not be pleased with the development of the service, they would be able to fork the token contract to a new one, which doesn’t have a development subsidy or has a different group who collects the inflation.
 
+  
 
-1% yearly inflation would cover the storage costs and offer the development subsidy to ensure continuous Iryo.network development and provide sustainable future for Iryo token holders, even when the initial funds run out. Until the platform is not released for public use, the token inflation would be burned - proving to prove there is none.
-
-The 1% inflation recipient would be multisig account controlled by Iryo. Iryo would issue reports on how this money was spent. If the token holders would not be pleased with the development  of the service, they would be able to fork the token contract to a new one, which doesn’t have development subsidy \(or has a different group collecting the inflation\).
 
