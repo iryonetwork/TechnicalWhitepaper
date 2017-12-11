@@ -8,7 +8,7 @@ To make our data as open and as meaningful as possible we decided to use openEHR
 
 Archetypes don't only solve data storage problems but are also used in openEHR's Archetype Querying Language \(AQL\) where archetypes can be reused in building and running extensive queries across the data.
 
-The openEHR community \(in collaboration with doctors and clinicians\) have been preparing specifications and collecting archetypes for the last 15 years and have already been chosen as a level of standard in nation-wide data exchange programs in some European Union countries. Taking this into consideration, we deem it the best option to manage handl patient data with vendor independence by using openEHR.
+The openEHR community \(in collaboration with doctors and clinicians\) have been preparing specifications and collecting archetypes for the last 15 years and have already been chosen as a level of standard in nation-wide data exchange programs in some European Union countries. Taking this into consideration, we deem it the best option to manage patient data with vendor independence by using openEHR.
 
 ---
 
