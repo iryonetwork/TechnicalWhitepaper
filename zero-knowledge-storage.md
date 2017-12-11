@@ -1,6 +1,6 @@
 # **Zero-Knowledge storage**
 
-The Iryo Network is a global repository of openEHR data. Since few people are prepared to provide their medical data to a “GoogleEHR”-type of capture and shameless reaping of all the medical data for commercial purposes, Iryo has decided to give up it’s access to plain data. Iryo perceives the medical data it holds as a [“toxic asset”](https://www.gitbook.com/book/iryo/whitepaper/edit#), because we believe that holding too much data in one place presents too large a liability risk.
+The Iryo Network is a global repository of openEHR data. Since few people are prepared to provide their medical data to a “GoogleEHR”-type of capture and shameless reaping of all the medical data for commercial purposes, Iryo has decided to give up it’s access to plain data. Iryo perceives the medical data it holds as a [“toxic asset”](https://www.schneier.com/blog/archives/2016/03/data_is_a_toxic.html), because we believe that holding too much data in one place presents too large a liability risk.
 
 The solution to managing this risk is zero-knowledge data storage which is resistant to all attacks, including state-actors or an “inside jobs’’. This works by way of users encrypting their data on their mobile device\(s\) with a public key.
 
@@ -22,11 +22,7 @@ Copies of encrypted health records are stored on the three geographically and ma
 
 Whenever data on end-user devices \(point three above\) is updated, the other devices would connect to the API of both redundant storage nodes \(points one and two above\) and sync/update the encrypted data to match the local copy. Both storage nodes would provide a “blockchain proof” \(cryptographic receipt\) of the location of the data saved with the same hash that clients requested. Clients would validate these by asking the independent node if the data was actually put in a chain.
 
-
-
 ![](assets/1.png)
-
-
 
 If the device contains more current data \(which could happen when a doctor syncs health record with a more recent version\), then it would only connect to one endpoint API. This would be one that is reachable - preferably the local one \(point two above\) in the same clinic. In this manner, read access doesn’t consume hospital internet connection.
 

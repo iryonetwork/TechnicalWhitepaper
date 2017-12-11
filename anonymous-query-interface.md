@@ -12,7 +12,7 @@ A process to deliver queries to end-user without breaking its anonymity or given
 
 1. First Iryo would verify research institutions to make sure they are legitimate and not attempting to commercialize confidential information by re-selling the collected data.
 
-2. Researchers would receive the Iryo Research Portal software which they can use to send queries to the Iryo Network, using the [‘Archetype Query Language’](https://www.gitbook.com/book/iryo/whitepaper/edit#) \(AQL\), and openEHR specification.
+2. Researchers would receive the Iryo Research Portal software which they can use to send queries to the Iryo Network, using the[ ‘Archetype Query Language’](http://www.openehr.org/releases/QUERY/latest/docs/AQL/AQL.html) \(AQL\), and openEHR specification.
 
 3. When they do, Iryo would verify the query first. This is to check that the query is not too broad or asking for information repetitively which could indicate an attempt to reconstruct records \(if done over an extended period of time\).
 
@@ -34,7 +34,7 @@ This is a request for medical data in plain form, without the directly identifia
 
 The number of these requests should be kept low \(up to 100 patients\) to train and test machine learning algorithms freely. After results are determined and the algorithm needs to be validated \(or invalidated\) over much bigger population sample size, they proceed to the next type of query.
 
-**                  
+**                    
 **
 
 ## **Analyze in place**
@@ -45,21 +45,13 @@ This is an anonymous query across medical data that bears a very low cost \(esti
 
 These requests can be sent to all users in the Iryo Network and can be used to train and test machine learning algorithms, until a verified researcher finds and validates the missing link.
 
-
-
 ![](assets/3.png)
-
-
 
 ### **Anonymous query- used to provide patient value that saves lives**
 
 This is an anonymous query across medical data that does not return binary responses, but rather shows actionable results. Its philosophy is that researchers should/could share the actionable algorithms that they have validated to improve decision making, for example. Of course, to avoid health risks, algorithms need to be validated by a regulatory authority like the Food and Drug Administration \(FDA\) or European Medicines Agency \(EMA\). This must be done before the insights derived from this platform can be considered as accepted medical advice \(i.e. clinically verified\) and is offered to Iryo patients.
 
-
-
 ![](assets/4.png)
-
-
 
 ## **Benefits for researchers**
 
