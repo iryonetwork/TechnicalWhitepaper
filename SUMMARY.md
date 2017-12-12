@@ -6,7 +6,7 @@
 * [Anonymous query interface](anonymous-query-interface.md)
 * [\(public\) Blockchain](public-blockchain.md)
 * [Blockchain permission controls](blockchain-permission-controls.md)
-* [Immutability of the medical data](immutability-of-the-medical-data.md)
+* [Immutability of medical data](immutability-of-the-medical-data.md)
 * [Why EOS](why-eos.md)
 * [Token utility](token-utility.md)
 * [Cryptographic enforcement of permissions](cryptographic-enforcement-of-permissions.md)
