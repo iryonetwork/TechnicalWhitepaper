@@ -8,16 +8,16 @@ A private decryption key remains on the patient’s device. Whenever someone wan
 
 Copies of encrypted health records are stored on the three geographically and managerially redundant storage nodes.
 
-1. One encrypted backup copy stays on Iryo cloud node. This is the default backup location that can be changed by a clinic or end-user to point to another storage API. The Iryo offering is centralized in the cloud with tight provisioning controls.  
-   **Pros**: audited, maintained, secured and backed-up  
+1. One encrypted backup copy stays on Iryo cloud node. This is the default backup location that can be changed by a clinic or end-user to point to another storage API. The Iryo offering is centralized in the cloud with tight provisioning controls.
+   **Pros**: audited, maintained, secured and backed-up
    **Cons**: centralized
 
-2. A second encrypted copy stays in the home clinic storage node.  
-   **Pros**: local copy, the clinic doesn't need to rely on an internet connection and it is fairly distributed  
+2. A second encrypted copy stays in the home clinic storage node.
+   **Pros**: local copy, the clinic doesn't need to rely on an internet connection and it is fairly distributed
    **Cons**: clinics’ IT personnel lack specialization in secure deployment
 
-3. End-user devices \(phones\) distributed all over the world.  
-   **Pros**: decentralized \(not centrally controlled\) and protected by thousands of people at the same time.  
+3. End-user devices \(phones\) distributed all over the world.
+   **Pros**: decentralized \(not centrally controlled\) and protected by thousands of people at the same time.
    **Cons**: not enough space for all raw data, malware infected devices and old/lost or stolen devices
 
 Whenever data on end-user devices \(point three above\) is updated, the other devices would connect to the API of both redundant storage nodes \(points one and two above\) and sync/update the encrypted data to match the local copy. Both storage nodes would provide a “blockchain proof” \(cryptographic receipt\) of the location of the data saved with the same hash that clients requested. Clients would validate these by asking the independent node if the data was actually put in a chain.
@@ -42,5 +42,5 @@ In some cases, in order to secure the storage of additional gigabytes of raw dat
 
 The precise staking requirement would be updated based on the real data gathered when the Iryo Network goes live. We foresee that, at scale, this would be significantly cheaper than any current decentralized storage, especially in comparison to proprietary systems that cannot be easily upgraded.
 
-The Iryo Network has distanced itself from the current fixation on “Big Data” and has chosen to rather focus on patient privacy. This alternative focus would allow the Iryo Network to scale globally, enabling it to attract more users. Because users, clinics and governments are assured data security and privacy,storing data on the Iryo platform means that the number of users willing to share their data with researchers could increase the rate of current EHR participation significantly. Open-source end-user apps would ensure that there are no secret back-doors circumventing the protection.
+The Iryo Network has distanced itself from the current fixation on “Big Data” and has chosen to rather focus on patient privacy. This alternative focus would allow the Iryo Network to scale globally, enabling it to attract more users. Because users, clinics and governments are assured data security and privacy, storing data on the Iryo platform means that the number of users willing to share their data with researchers could increase the rate of current EHR participation significantly. Open-source end-user apps would ensure that there are no secret back-doors circumventing the protection.
 
