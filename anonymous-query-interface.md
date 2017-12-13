@@ -1,12 +1,8 @@
-# ![](assets/iryo_skica_1.png)**Anonymous query interface **
-
-### **enables AI learning over distributed & encrypted data**
+### enables AI learning over distributed & encrypted data
 
 Since health data doesn’t decrypt itself without patient consent, a new approach needs to be devised to allow for machine learning and AI capabilities. There are many complicated ways, from both a development and resource standpoint, to query encrypted data \(e.g. multi-party computation and proxy re-encryption\).
 
 Fortunately, there is an actual ‘trusted device’ in the Iryo Network end-user device. This could be a phone, tablet or personal computer. Since these devices need to be able to read all health data in plain text, they would also be able to execute the queries across the same data.
-
-![](assets/Untitled-1.png)
 
 A process to deliver queries to end-user without breaking its anonymity or given consent needs to be defined. Iryo has a solution to this process gap.
 
