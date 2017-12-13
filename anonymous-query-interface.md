@@ -30,7 +30,6 @@ This is a request for medical data in plain form, without the directly identifia
 
 The number of these requests should be kept low \(up to 100 patients\) to train and test machine learning algorithms freely. After results are determined and the algorithm needs to be validated \(or invalidated\) over much bigger population sample size, they proceed to the next type of query.
 
-
 ## Analyze in place
 
 ### Anonymous query- used for an AI validation dataset
@@ -59,9 +58,9 @@ Obtain 100[^2] individuals who respond to the query, and collect their health da
 
 Since the Iryo Network scales better to more patients internationally \(due to its inherent privacy\), researchers would be able to approach more people and therefore enhance the robustness of their research findings.
 
-## Benefits for Patients - find actionable early indicators of health problems/diseases 
+## Benefits for Patients - find actionable early indicators of health problems/diseases
 
-Patients will be alerted to their identified modifiable risk factors of disease and indicators that may suggest the early onset of disease once correlations are clinically verified, users would get the anonymous queries that would seep through their data and present them with actionable advice. For example, they will receive information on which healthcare provider they need to consult and which tests would be beneficial for them to have. Those queries would not be reported back, and would remain on the patient’s phone.
+Patients will be alerted to their identified modifiable risk factors of disease and indicators that may suggest the early onset of disease. Once correlations are clinically verified, users would get the anonymous queries that would seep through their data and present them with actionable advice. For example, they will receive information on which healthcare provider they need to consult and which tests would be beneficial for them to have. Those queries would not be reported back, and would remain on the patient’s phone.
 
 With Iryo’s innovative design, patients now have the option to not share their health information but still receive research results – something that has not been achieved until now.
 
