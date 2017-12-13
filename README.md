@@ -6,7 +6,7 @@
 
 # Abstract
 
-Patient health records are considered one of the most sensitive kinds personal information. Should personal health data leak, it could be used to defame an individual’s reputation, jeopardize employment options, influence insurance premiums, or used as a marketing tool - all potentially exploiting an individual’s health status.
+Patient health records are considered one of the most sensitive kinds of personal information. Should personal health data leak, it could be used to defame an individual’s reputation, jeopardize employment options, influence insurance premiums, or used as a marketing tool - all potentially exploiting an individual’s health status.
 
 However, there is little doubt that having medical data readily available to appropriate institutions globally can have major medical benefits. Access to this data can avoid unnecessary medical complications that arise due to incomplete patient medical history. Currently, many research artificial intelligence platforms are exploring ways to access patient data to improve the understanding of conditions, in order to formulate algorithms for early detection of diseases and develop new treatments.
 
