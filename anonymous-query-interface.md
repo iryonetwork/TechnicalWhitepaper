@@ -22,9 +22,9 @@ In actual implementation, the patient's device will receive a silent notificatio
 
 Iryo envisions three types of opt-out, anonymous requests that present various potential implications for privacy which would require distinct user consent. These types are identified as a pseudo anonymous query, an anonymous query used for AI validation across a dataset and an anonymous query to deliver patient value.
 
-## **Copy then analyse**
+## Copy then analyse
 
-### **PseudoAnonymous query - used for AI training dataset**
+### PseudoAnonymous query - used for AI training dataset
 
 This is a request for medical data in plain form, without the directly identifiable personal information \(pseudonymous\). This bears high costs \(in the region of $100 worth of IRYO tokens\) since, even without personally identifiable information, this data can still be used to match against other databases and individuals could be identified if that data leaks from the researcher[^1].
 
@@ -32,12 +32,12 @@ This is a request for medical data in plain form, without the directly identifia
 
 The number of these requests should be kept low \(up to 100 patients\) to train and test machine learning algorithms freely. After results are determined and the algorithm needs to be validated \(or invalidated\) over much bigger population sample size, they proceed to the next type of query.
 
-**  
+**    
 **
 
-## **Analyze in place**
+## Analyze in place
 
-### **Anonymous query- used for an AI validation dataset**
+### Anonymous query- used for an AI validation dataset
 
 This is an anonymous query across medical data that bears a very low cost \(estimated at $0.1 worth of IRYO tokens\). This is because this request takes data, applies a formula to it, and then only sends back the result in numerical or binary form \(true/false\). There is no leakage of personal information and it cannot be compared to other databases.
 
@@ -63,7 +63,7 @@ Obtain 100[^2] individuals who respond to the query, and collect their health da
 
 Since the Iryo Network scales better to more patients internationally \(due to its inherent privacy\), researchers would be able to approach more people and therefore enhance the robustness of their research findings.
 
-## **Benefits for Patients - find actionable early indicators of health problems/diseases **
+## Benefits for Patients - find actionable early indicators of health problems/diseases 
 
 Patients will be alerted to their identified modifiable risk factors of disease and indicators that may suggest the early onset of disease once correlations are clinically verified, users would get the anonymous queries that would seep through their data and present them with actionable advice. For example, they will receive information on which healthcare provider they need to consult and which tests would be beneficial for them to have. Those queries would not be reported back, and would remain on the patient’s phone.
 
