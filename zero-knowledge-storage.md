@@ -2,22 +2,22 @@
 
 The Iryo Network is a global repository of openEHR data. Since few people are prepared to provide their medical data to a “GoogleEHR”-type of capture and shameless reaping of all the medical data for commercial purposes, Iryo has decided to give up it’s access to plain data. Iryo perceives the medical data it holds as a [“toxic asset”](https://www.schneier.com/blog/archives/2016/03/data_is_a_toxic.html), because we believe that holding too much data in one place presents too large a liability risk.
 
-The solution to managing this risk is zero-knowledge data storage which is resistant to all attacks, including state-actors or an “inside jobs’’. This works by way of users encrypting their data on their mobile device\(s\) with a public key.
+The solution to managing this risk is zero-knowledge data storage which is resistant to all attacks, including state-actors or “inside jobs’’. This works by way of users encrypting their data on their mobile device\(s\) with a public key.
 
 A private decryption key remains on the patient’s device. Whenever someone wants to access patient data \(a doctor or researcher, for example\) the patient has to approve their access. This will be done by the patient clicking “yes’’ in their IryoEHR app. This gives a re-encryption key to the doctor’s public key. You can read more under the “Private key management section” to understand the details of this process and the application to the edge cases.
 
 Copies of encrypted health records are stored on the three geographically and managerially redundant storage nodes.
 
-1. One encrypted backup copy stays on Iryo cloud node. This is the default backup location that can be changed by a clinic or end-user to point to another storage API. The Iryo offering is centralized in the cloud with tight provisioning controls.
-   **Pros**: audited, maintained, secured and backed-up
+1. One encrypted backup copy stays on Iryo cloud node. This is the default backup location that can be changed by a clinic or end-user to point to another storage API. The Iryo offering is centralized in the cloud with tight provisioning controls.  
+   **Pros**: audited, maintained, secured and backed-up  
    **Cons**: centralized
 
-2. A second encrypted copy stays in the home clinic storage node.
-   **Pros**: local copy, the clinic doesn't need to rely on an internet connection and it is fairly distributed
+2. A second encrypted copy stays in the home clinic storage node.  
+   **Pros**: local copy, the clinic doesn't need to rely on an internet connection and it is fairly distributed  
    **Cons**: clinics’ IT personnel lack specialization in secure deployment
 
-3. End-user devices \(phones\) distributed all over the world.
-   **Pros**: decentralized \(not centrally controlled\) and protected by thousands of people at the same time.
+3. End-user devices \(phones\) distributed all over the world.  
+   **Pros**: decentralized \(not centrally controlled\) and protected by thousands of people at the same time.  
    **Cons**: not enough space for all raw data, malware infected devices and old/lost or stolen devices
 
 Whenever data on end-user devices \(point three above\) is updated, the other devices would connect to the API of both redundant storage nodes \(points one and two above\) and sync/update the encrypted data to match the local copy. Both storage nodes would provide a “blockchain proof” \(cryptographic receipt\) of the location of the data saved with the same hash that clients requested. Clients would validate these by asking the independent node if the data was actually put in a chain.
