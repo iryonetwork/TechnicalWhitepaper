@@ -18,8 +18,6 @@ A process to deliver queries to end-user without breaking its anonymity or given
 
 In actual implementation, the patient's device will receive a silent notification which will wake up a background process to query the requested criteria i.e. female, 30-35 years old with diabetes. If a patient does not fall within the defined parameters, the silent notification disappears. It will do so without providing a report to the requester thereby keeping patient-users anonymous. If the patient meets the criteria, a notification would be shown on the patient’s device. The notification would include the name of the research institution, the justification for the query requested i.e. the aim\(s\) of the research, and the number of tokens available as an incentive to allow query results to be sent back.
 
-![](assets/1_750.png)
-
 Iryo envisions three types of opt-out, anonymous requests that present various potential implications for privacy which would require distinct user consent. These types are identified as a pseudo anonymous query, an anonymous query used for AI validation across a dataset and an anonymous query to deliver patient value.
 
 ## Copy then analyse
