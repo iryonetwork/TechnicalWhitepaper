@@ -9,17 +9,9 @@ Later, ZeroPass would add multisignature transaction signing \(thresholdECDSA\),
 
 If users lose their devices \(referred to as ZeroPass “factors”\) and/or lock themselves out, two out of three trusted contacts which they had nominated can help them recover their key within the app or offline \(where the service is unavailable online\).
 
+![](assets/7.png)
 
-
-
-
-
-
-![](https://lh6.googleusercontent.com/UXdlBaZePqH7p4TTqJ4v4JDgj4QONUhpoXv8f9_OWLeQDkcKLYZdw1HreLnXWwXIE0TxKEiAtCZJqDqOLW-RDxHcmZzxNLqskNBcFVdTkQGLu10G9rysNY2Fh0LCCV0U4z6NPxtw)
-
-
-
-If users lose their devices \(referred to as ZeroPass “factors”\) and/or lock themselves out, two out of three trusted contacts which they had nominated can help them recover their key within the app or offline \(where the service is unavailable online\).**       
+If users lose their devices \(referred to as ZeroPass “factors”\) and/or lock themselves out, two out of three trusted contacts which they had nominated can help them recover their key within the app or offline \(where the service is unavailable online\).**         
 **
 
 ## **ZeroPass 4Teams app**
@@ -52,7 +44,7 @@ Potential abuse of this edge case functionality:
 
 1. If Alice \(patient\) abuses the stake; the clinic can invoice her and later file a lawsuit if the invoice was not paid for.
 
-2. If Alice’s hospital issued fraudulent requests she gets automatically compensated and can sue based on the public blockchain proof of the breach. That holds true even if the clinic refuses to notify her of that catastrophic breach to multiple clinic personnel devices.  **        
+2. If Alice’s hospital issued fraudulent requests she gets automatically compensated and can sue based on the public blockchain proof of the breach. That holds true even if the clinic refuses to notify her of that catastrophic breach to multiple clinic personnel devices.  **          
    **
 
 ### **Edge case: Disaster ‘Health Records’ access mode for clinic**
