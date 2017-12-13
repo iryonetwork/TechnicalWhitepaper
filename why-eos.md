@@ -1,6 +1,6 @@
 # **Why EOS?**
 
-### Choosing the right platform, EOS overview.
+### Choosing the right platform, [EOS](https://eos.io/) overview.
 
 Generally speaking, there are two extremes in public blockchain technology:
 
@@ -32,6 +32,6 @@ Another strength of EOS is its use of WebAssembly instead of Solidity which ensu
 
 In addition to that, Iryo would use the public EOS network to keep access control timestamped and synced on all nodes. Iryo deems the importance of access control messages and history logs to be propagated near real-time in emergency situations as essential. Right now, this cannot be achieved/guaranteed on a network like Ethereum or Bitcoin.
 
-**      
+**        
 **
 
