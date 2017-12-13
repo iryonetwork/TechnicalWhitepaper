@@ -1,3 +1,5 @@
+# Anonymous query interface
+
 ### enables AI learning over distributed & encrypted data
 
 Since health data doesn’t decrypt itself without patient consent, a new approach needs to be devised to allow for machine learning and AI capabilities. There are many complicated ways, from both a development and resource standpoint, to query encrypted data \(e.g. multi-party computation and proxy re-encryption\).
@@ -30,7 +32,7 @@ This is a request for medical data in plain form, without the directly identifia
 
 The number of these requests should be kept low \(up to 100 patients\) to train and test machine learning algorithms freely. After results are determined and the algorithm needs to be validated \(or invalidated\) over much bigger population sample size, they proceed to the next type of query.
 
-**
+**  
 **
 
 ## **Analyze in place**
