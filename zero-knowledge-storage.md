@@ -6,7 +6,7 @@ The solution to managing this risk is zero-knowledge data storage which is resis
 
 A private decryption key remains on the patient’s device. Whenever someone wants to access patient data \(a doctor or researcher, for example\) the patient has to approve their access. This will be done by the patient clicking “yes’’ in their IryoEHR app. This gives a re-encryption key to the doctor’s public key. You can read more under the “Private key management section” to understand the details of this process and the application to the edge cases.
 
-Copies of encrypted health records are stored on the three geographically and managerially redundant storage nodes.
+Copies of encrypted health records are stored on three geographically and managerially redundant storage nodes.
 
 1. One encrypted backup copy stays on Iryo cloud node. This is the default backup location that can be changed by a clinic or end-user to point to another storage API. The Iryo offering is centralized in the cloud with tight provisioning controls.  
    **Pros**: audited, maintained, secured and backed-up  
