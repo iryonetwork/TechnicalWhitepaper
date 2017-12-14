@@ -2,7 +2,7 @@
 
 # Technical Whitepaper
 
-[**Iryo Network**](https://www.iryo.network) is a zero-knowledge healthsefsdfsdfs record storage platform, with an anonymous query interface. It uses blockchain permission controls for patient record access and tokens to incentivize end users consent enabling artificial intelligence \(AI\) research.
+[**Iryo Network**](https://www.iryo.network) is a zero-knowledge health record storage platform, with an anonymous query interface. It uses blockchain permission controls for patient record access and tokens to incentivize end users consent enabling artificial intelligence \(AI\) research.
 
 # Abstract
 
