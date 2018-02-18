@@ -26,7 +26,7 @@ For the sake of simplicity of the paper, we only mention one encryption key-pair
 
 ## **Key rotation**
 
-When access is revoked, a patient would issue new re-encryption keys for all new data. For old data, NuCypher proxy re-encryption relays on the servers to not serve the revoked clients \(with data or re-encryption keys\). In our case, the Iryo storage node and clinic storage node would simply throw the revoked re-encryption keys away and, by doing this, they protect the data even if the storage node gets hacked later, and all encrypted data leaked.
+When access is revoked, a patient would issue new re-encryption keys for all new data. For old data, NuCypher proxy re-encryption relies on the servers to not serve the revoked clients \(with data or re-encryption keys\). In our case, the Iryo storage node and clinic storage node would simply throw the revoked re-encryption keys away and, by doing this, they protect the data even if the storage node gets hacked later, and all encrypted data leaked.
 
 Due to BIP32 and proxy re-encryption, the key rotation process does not need any other device but the patient’s to be online \(it's non-interactive\). This value is enhanced in the doctor’s case, as he can re-issue all re-encryption keys to himself without ‘bothering’ any of their patients.
 
