@@ -10,7 +10,7 @@ This key is then cryptographically encrypted so that only the owner of the priva
 
 > ECIES \(patient\_public, data\)
 
-To read the data, an [Umbral](https://github.com/nucypher/nucypher-kms/blob/master/nkms/crypto/api.py#L384) algorithm is used, which allows patient to issue re-encryption keys. These keys can take the data and re-encrypt them to a doctor’s public key on the fly.To create a re-encryption key, patient\_private, doctor\_public keys are used. A re-encryption key is then used to re-encrypt the data \(encrypted ephemeral key\) from the patient to doctor public key.
+To read the data, an [Umbral](https://blog.nucypher.com/unveiling-umbral-3d9d4423cd71) algorithm is used, which allows patient to issue re-encryption keys. These keys can take the data and re-encrypt them to a doctor’s public key on the fly.To create a re-encryption key, patient\_private, doctor\_public keys are used. A re-encryption key is then used to re-encrypt the data \(encrypted ephemeral key\) from the patient to doctor public key.
 
 ![](assets/6.png)
 
